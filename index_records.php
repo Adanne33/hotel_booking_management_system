@@ -81,7 +81,7 @@ if(isset($_POST['clear_record_data'])){
                 <th>Full Name</th>
                 <th>Email</th>
                 <th>Phone</th>
-                <th>Room Type</th>
+                
                 <th>Check-in</th>
                 <th>Check-out</th>
                 <th>Photos</th>
@@ -95,7 +95,7 @@ if(isset($_POST['clear_record_data'])){
                   <td><?= htmlspecialchars($data['full_name']) ?></td>
                   <td><?= htmlspecialchars($data['email_address']) ?></td>
                   <td><?= htmlspecialchars($data['phone_number']) ?></td>
-                  <td><?= htmlspecialchars($data['room_type']) ?></td>
+                  
                   <td><?= htmlspecialchars($data['check_in_date']) ?></td>
                   <td><?= htmlspecialchars($data['check_out_date']) ?></td>
                   <td>
@@ -146,6 +146,8 @@ if(isset($_POST['clear_record_data'])){
 <div class="text-center mt-4">
                             <div class="d-flex justify-content-center gap-3">
                                 <a href="/index.php" class="btn btn-success px-4">Add New Student</a>
+                                <a href="http://localhost/hotel_booking_management_system/roomtypes/index_room.php" class="btn btn-info px-4">Roomtype</a>
+
                                 <form method="POST">
 
  <!-- Button trigger modal -->

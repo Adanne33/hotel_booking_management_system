@@ -1,6 +1,6 @@
 <?php
 
-function formValidation($full_name, $email_address, $phone_number, $room_type, $check_in_date, $check_out_date,){
+function formValidation($full_name, $email_address, $phone_number, $room_type, $check_in_date, $check_out_date){
     
     $errors = [];
 
