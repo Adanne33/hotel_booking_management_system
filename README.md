@@ -14,6 +14,8 @@ A simple Hotel Booking Management System built with **PHP**, **MySQL**, and **Bo
 - ✅ Login authentication for admin access
 - ✅ Responsive UI using Bootstrap
 
+Run `composer install`
+
 ---
 
 ## 🛠️ Technologies Used
